@@ -12,7 +12,6 @@ authors = [
 dependencies = [
     "clipboard>=0.0.4",
     "keyboard>=0.13.5",
-    "loguru>=0.7.3",
     "pyautogui>=0.9.54",
 ]
 
