@@ -19,3 +19,6 @@ dependencies = [
 dev = [
     "pyinstaller>=6.22.3",
 ]
+
+[project.gui-scripts]
+paste-by-keyboard = "main:main"
