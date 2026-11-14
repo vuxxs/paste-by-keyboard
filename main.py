@@ -39,6 +39,7 @@ class PasteByKeyboard:
         self.root.title("tool")
         self.root.geometry("240x140")
         self.root.resizable(False, False)
+        self.root.attributes("-topmost", True)
 
         self.load_settings()
         self.create_ui()
